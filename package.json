@@ -1,0 +1,18 @@
+{
+  "name": "imfug-registries",
+  "version": "1.0.0-beta.1",
+  "description": "IMF UG metadata registries",
+  "scripts": {
+    "build": "node src/main/scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imfug/registries.git"
+  },
+  "author": "Hollywood Professional Association",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "ajv": "^6.10.2",
+    "handlebars": "^4.7.6"
+  }
+}

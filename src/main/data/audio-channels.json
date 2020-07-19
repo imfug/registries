@@ -1,0 +1,50 @@
+[
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04010000",
+    "name" : "Left Wide",
+    "symbol" : "Lw",
+    "description" : "Front right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04020000",
+    "name" : "Right Wide",
+    "symbol" : "Rw",
+    "description" : "Front right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04030000",
+    "name" : "Left Top Front",
+    "symbol" : "Ltf",
+    "description" : "Left top front channel of Sound Sytem J specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04040000",
+    "name" : "Right Top Front",
+    "symbol" : "Rtf",
+    "description" : "Right top front channel of Sound Sytem J specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04050000",
+    "name" : "Top Side Left",
+    "symbol" : "TpSiL",
+    "description" : "Top side left channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04060000",
+    "name" : "Top Side Right",
+    "symbol" : "TpSiR",
+    "description" : "Top side right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04070000",
+    "name" : "Left Top Back",
+    "symbol" : "Ltb",
+    "description" : "Left top back channel of Sound System J in Recommendation ITU-R BS.2051-2"
+  },
+  {
+    "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.04080000",
+    "name" : "Right Top Back",
+    "symbol" : "Rtb",
+    "description" : "Right top back channel of Sound System J in Recommendation ITU-R BS.2051-2"
+  }
+]
