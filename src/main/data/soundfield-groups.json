@@ -12,7 +12,8 @@
       "urn:smpte:ul:060e2b34.0401010d.03020106.00000000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04050000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04060000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05020000",
@@ -29,7 +30,8 @@
       "urn:smpte:ul:060E2B34.04010105.0E090101.04040000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04070000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04080000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05030000",
@@ -46,7 +48,8 @@
       "urn:smpte:ul:060e2b34.0401010d.0302010A.00000000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04050000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04060000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05040000",
@@ -65,7 +68,8 @@
       "urn:smpte:ul:060E2B34.04010105.0E090101.04040000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04070000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04080000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05050000",
@@ -84,7 +88,8 @@
       "urn:smpte:ul:060E2B34.04010105.0E090101.04020000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04050000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04060000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05060000",
@@ -105,7 +110,8 @@
       "urn:smpte:ul:060E2B34.04010105.0E090101.04040000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04070000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04080000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   },
   {
     "ul" : "urn:smpte:ul:060E2B34.04010105.0E090101.05070000",
@@ -128,6 +134,7 @@
       "urn:smpte:ul:060E2B34.04010105.0E090101.04080000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04050000",
       "urn:smpte:ul:060E2B34.04010105.0E090101.04060000"
-    ]
+    ],
+    "reference" : "Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)"
   }
 ]
