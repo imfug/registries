@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand navbar-light bg-light d-print-block d-flex justify-content-between">
+  <nav class="navbar navbar-expand navbar-dark bg-primary d-print-block d-flex justify-content-between">
     <a class="navbar-brand" href="#">IMF UG Audio Channels and Soundfields Registry</a>
   </nav>
   <section>
@@ -18,9 +18,21 @@
     <table class="table table-small table-hover">
       <thead class="thead-light">
         <tr>
-          <th scope="col">UL</th>
-          <th scope="col">Name</th>
-          <th scope="col">Symbol</th>
+          <th scope="col">
+            UL
+            <br/>
+            <small class="text-muted">(used as-is for the MCA Label Dictionary ID value)</small>
+          </th>
+          <th scope="col">
+            Name
+            <br/>
+            <small class="text-muted">(used as-is for the MCA Tag Name value)</small>
+          </th>
+          <th scope="col">
+            Symbol
+            <br/>
+            <small class="text-muted">(see below for the corresponding MCA Tag Symbol)</small>
+          </th>
           <th scope="col">Description</th>
         </tr>
       </thead>
@@ -35,7 +47,7 @@
           </td>
           <td>
             <code>{{symbol}}</code><br/>
-            <span class="text-secondary"></span>(MCA Tag Symbol: <code>{{mca-tag-symbol}}</code>)</span>
+            <small class="text-secondary"></span>(MCA Tag Symbol: <code>{{mca-tag-symbol}}</code>)</small>
           </td>
           <td>
             {{description}}
@@ -50,9 +62,21 @@
     <table class="table table-small table-hover">
       <thead class="thead-light">
         <tr>
-          <th scope="col">UL</th>
-          <th scope="col">Name</th>
-          <th scope="col">Symbol</th>
+          <th scope="col">
+            UL
+            <br/>
+            <small class="text-muted">(used as-is for the MCA Label Dictionary ID value)</small>
+          </th>
+          <th scope="col">
+            Name
+            <br/>
+            <small class="text-muted">(used as-is for the MCA Tag Name value)</small>
+          </th>
+          <th scope="col">
+            Symbol
+            <br/>
+            <small class="text-muted">(see below for the corresponding MCA Tag Symbol)</small>
+          </th>
           <th scope="col">Audio Channels</th>
         </tr>
       </thead>
@@ -67,7 +91,7 @@
           </td>
           <td>
             <code>{{symbol}}</code><br/>
-            <span class="text-secondary">(MCA Tag Symbol: <code>{{mca-tag-symbol}}</code>)</span>
+            <small class="text-secondary">(MCA Tag Symbol: <code>{{mca-tag-symbol}}</code>)</small>
           </td>
           <td>
             {{#audio-channels-with-symbols}}

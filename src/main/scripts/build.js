@@ -79,7 +79,7 @@ if (!ac_registry) {
 /* create the audio channels MCA Tag Symbol */
 
 for (let i = 0; i < ac_registry.length; i++) {
-  ac_registry[i]["mca-tag-symbol"] = "ac" + ac_registry[i]["symbol"];
+  ac_registry[i]["mca-tag-symbol"] = "ch" + ac_registry[i]["symbol"];
   ch_ul_symbol_map[ac_registry[i]["ul"]] = ac_registry[i]["symbol"];
 }
 
