@@ -9,10 +9,10 @@
     "type": "git",
     "url": "https://github.com/imfug/registries.git"
   },
-  "author": "Hollywood Professional Association",
+  "author": "IMF User Group",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "ajv": "^6.10.2",
-    "handlebars": "^4.7.6"
+    "ajv": "^8.17.1",
+    "handlebars": "^4.7.8"
   }
 }

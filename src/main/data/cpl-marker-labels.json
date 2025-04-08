@@ -266,6 +266,7 @@
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "LFUN",
-    "description": "Last Frame of Up Next"
+    "description": "Last Frame of Up Next",
+    "definingDocument": "SMPTE ST 2067-3"
   }
 ]
