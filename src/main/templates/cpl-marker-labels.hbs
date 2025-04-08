@@ -36,18 +36,24 @@
         <tr>
           <th>Label</th>
           <th>Description</th>
+          <th>See also</th>
           <th>Where is it defined?</th>
         </tr>
       </thead>
       {{#each scopes}}
         <tbody>
           <tr>
-            <th colspan="3"><code>scope</code>: <code>{{scope}}</code></th>
+            <th colspan="4"><code>scope</code>: <code>{{scope}}</code></th>
           </tr>
           {{#each labels}}
             <tr id="{{../scope}}-{{label}}">
               <td><code>{{label}}</code></td>
               <td>{{description}}</td>
+              <td>
+                {{#each seeAlso}}
+                 <a href="#{{scope}}-{{label}}">{{label}}</a> 
+                {{/each}}
+              </td>
               <td>{{authority}}</td>
             </tr>
           {{/each}}
