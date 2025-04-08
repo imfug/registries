@@ -2,430 +2,282 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <title>IMF UG Audio Channels and Soundfields Registry</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/main.css">
+  <title>IMF CPL Marker Label Register</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand navbar-dark bg-primary d-print-block d-flex justify-content-between">
-    <a class="navbar-brand" href="#">IMF UG Audio Channels and Soundfields Registry</a>
+
+  <nav id="toolbar">
+    <div id="branding">
+      <a href="https://www.imfug.com/"><img src="static/imf-ug-logo.png" alt="IMF User logo"></a>
+      <span><a href="https://www.imfug.com/">IMF User Group</a></span>
+    </div>
+    <div id="toolbar-links">
+      <a href="https://github.com/imfug/registries/issues">File an issue</a>
+      <a href="https://github.com/imfug/registries">Get the code</a>
+    </div>
   </nav>
-  <section>
-    <h2>Scope</h2>
-    <p>The following lists audio channels and soundfield groups that are in current use in IMF Audio Track Files,
-      as specified in <a href="https://doi.org/10.5594/SMPTE.ST2067-2.2020">SMPTE ST 2067-2</a> but
-      not registered in the <a href="https://registry.smpte-ra.org/apps/pages/">SMPTE metadata registers</a>.</p>
-  </section>
-  <section>
-    <h2>Audio channels</h2>
-    <table class="table table-small table-hover">
-      <thead class="thead-light">
+
+  <section id="main">
+    <h1>IMF CPL Marker Label Register</h1>
+
+    <p>This register collects <code>Label</code> values (and associated <code>scope</code> values)
+    for use with the IMF CPL.</p>
+
+    <table id="register">
+      <thead>
         <tr>
-          <th scope="col">
-            UL
-            <br />
-            <small class="text-muted">(used as-is for the MCA Label Dictionary ID value)</small>
-          </th>
-          <th scope="col">
-            Name
-            <br />
-            <small class="text-muted">(used as-is for the MCA Tag Name value)</small>
-          </th>
-          <th scope="col">
-            Symbol
-            <br />
-            <small class="text-muted">(see below for the corresponding MCA Tag Symbol)</small>
-          </th>
-          <th scope="col">Description</th>
-          <th scope="col">Reference</th>
+          <th>Label</th>
+          <th>Description</th>
+          <th>Defining document</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04010000</code>
-          </td>
-          <td>
-            Left Wide
-          </td>
-          <td>
-            <code>Lw</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chLw</code>)</small>
-          </td>
-          <td>
-            Front right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04020000</code>
-          </td>
-          <td>
-            Right Wide
-          </td>
-          <td>
-            <code>Rw</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chRw</code>)</small>
-          </td>
-          <td>
-            Front right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code>
-          </td>
-          <td>
-            Left Top Front
-          </td>
-          <td>
-            <code>Ltf</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chLtf</code>)</small>
-          </td>
-          <td>
-            Left top front channel of Sound Sytem J specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code>
-          </td>
-          <td>
-            Right Top Front
-          </td>
-          <td>
-            <code>Rtf</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chRtf</code>)</small>
-          </td>
-          <td>
-            Right top front channel of Sound Sytem J specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04050000</code>
-          </td>
-          <td>
-            Top Side Left
-          </td>
-          <td>
-            <code>TpSiL</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chTpSiL</code>)</small>
-          </td>
-          <td>
-            Top side left channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04060000</code>
-          </td>
-          <td>
-            Top Side Right
-          </td>
-          <td>
-            <code>TpSiR</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chTpSiR</code>)</small>
-          </td>
-          <td>
-            Top side right channel of Sound Sytem H specified in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04070000</code>
-          </td>
-          <td>
-            Left Top Back
-          </td>
-          <td>
-            <code>Ltb</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chLtb</code>)</small>
-          </td>
-          <td>
-            Left top back channel of Sound System J in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04080000</code>
-          </td>
-          <td>
-            Right Top Back
-          </td>
-          <td>
-            <code>Rtb</code><br />
-            <small class="text-secondary"></span>(MCA Tag Symbol: <code>chRtb</code>)</small>
-          </td>
-          <td>
-            Right top back channel of Sound System J in Recommendation ITU-R BS.2051-2
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-      </tbody>
+        <tbody>
+          <tr>
+            <th colspan="3"><code>http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers</code></th>
+          </tr>
+            <tr>
+              <td><code>FFBT</code></td>
+              <td>First Frame of Bars and Tone</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFCB</code></td>
+              <td>First Frame of Commercial Blacks</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFCL</code></td>
+              <td>First Frame of Company/Production Logo</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFDL</code></td>
+              <td>First Frame of Distribution Logo</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFEC</code></td>
+              <td>First Frame of End Credits. First displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFHS</code></td>
+              <td>First Frame of Head Slate</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFMC</code></td>
+              <td>First displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFOB</code></td>
+              <td>First Frame of Ratings Band. First displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFOC</code></td>
+              <td>First Frame of Composition. The first frame of a composition that is intended for display.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFOI</code></td>
+              <td>First Frame of Intermission.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFSP</code></td>
+              <td>First Frame of Digital Sync Pop</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFTC</code></td>
+              <td>First Frame of Title Credits. First displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFTS</code></td>
+              <td>First Frame of Tail Slate</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FTXC</code></td>
+              <td>First Frame of Textless Title Credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FTXE</code></td>
+              <td>First Frame of Textless End Credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FTXM</code></td>
+              <td>First Frame of Textless Material Segment</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFBT</code></td>
+              <td>Last Frame of Bars and Tone</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFCB</code></td>
+              <td>Last Frame of Commercial Blacks</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFCL</code></td>
+              <td>Last Frame of Company/Production Logo</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFDL</code></td>
+              <td>Last Frame of Distribution Logo</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFEC</code></td>
+              <td>Last Frame of End Credits. Last displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFHS</code></td>
+              <td>Last Frame of Head Slate</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFMC</code></td>
+              <td>Last displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFOB</code></td>
+              <td>Last Frame of Ratings Band. Last displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFOC</code></td>
+              <td>Last Frame of Composition. The last frame of a composition that is intended for display.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFOI</code></td>
+              <td>Last Frame of Intermission.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFSP</code></td>
+              <td>Last Frame of Digital Sync Pop</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFTC</code></td>
+              <td>Last Frame of Title Credits. Last displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFTS</code></td>
+              <td>Last Frame of Tail Slate</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LTXC</code></td>
+              <td>Last frame of Textless Title Credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LTXE</code></td>
+              <td>Last Frame of Textless End Credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LTXM</code></td>
+              <td>Last frame of Textless Material Segment</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FPCI</code></td>
+              <td>Fixed Point Candidate Insertion. Indicates possible point in the timeline where it would be allowable to insert content downstrean. This is for material that may not have commercial blacks, but could indicate a candidate point where a commercial could be inserted.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFCO</code></td>
+              <td>First Frame of Candidate Overlay. First frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFCO</code></td>
+              <td>Last Frame of Candidate Overlay. Last frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFOA</code></td>
+              <td>Audio First Frame. First frame of audio ring-in/ring-out where the video is in black.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFOA</code></td>
+              <td>Audio Last Frame. Last frame of audio ring-in/ring-out where the video is in black.</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th colspan="3"><code>http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers</code></th>
+          </tr>
+            <tr>
+              <td><code>FFDC</code></td>
+              <td>First Frame of Dubbing Credits. First displayable frame of content that contains any intensity of dubbing credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFDC</code></td>
+              <td>Last Frame of Dubbing credits: Last displayable frame of content that contains any intensity of dubbing credits</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th colspan="3"><code>http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers</code></th>
+          </tr>
+            <tr>
+              <td><code>FFEI</code></td>
+              <td>First Frame of Episode Intro</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFER</code></td>
+              <td>First Frame of Episode Recap</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>FFUN</code></td>
+              <td>First Frame of Up Next</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFEI</code></td>
+              <td>Last Frame of Episode Intro</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFER</code></td>
+              <td>Last Frame of Episode Recap</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+            <tr>
+              <td><code>LFUN</code></td>
+              <td>Last Frame of Up Next</td>
+              <td>SMPTE ST 2067-3</td>
+            </tr>
+        </tbody>
     </table>
   </section>
-  <section>
-    <h2>Soundfield Groups</h2>
-    <table class="table table-small table-hover">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col">
-            UL
-            <br />
-            <small class="text-muted">(used as-is for the MCA Label Dictionary ID value)</small>
-          </th>
-          <th scope="col">
-            Name
-            <br />
-            <small class="text-muted">(used as-is for the MCA Tag Name value)</small>
-          </th>
-          <th scope="col">
-            Symbol
-            <br />
-            <small class="text-muted">(see below for the corresponding MCA Tag Symbol)</small>
-          </th>
-          <th scope="col">Audio Channels</th>
-          <th scope="col">Reference</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05010000</code>
-          </td>
-          <td>
-            5.1.2
-          </td>
-          <td>
-            <code>512</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg512</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020105.00000000</code> <span class="text-secondary">(<code>Ls</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020106.00000000</code> <span class="text-secondary">(<code>Rs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04050000</code> <span class="text-secondary">(<code>TpSiL</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04060000</code> <span class="text-secondary">(<code>TpSiR</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05020000</code>
-          </td>
-          <td>
-            5.1.4
-          </td>
-          <td>
-            <code>514</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg514</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020105.00000000</code> <span class="text-secondary">(<code>Ls</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020106.00000000</code> <span class="text-secondary">(<code>Rs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code> <span class="text-secondary">(<code>Ltf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code> <span class="text-secondary">(<code>Rtf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04070000</code> <span class="text-secondary">(<code>Ltb</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04080000</code> <span class="text-secondary">(<code>Rtb</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05030000</code>
-          </td>
-          <td>
-            7.1.2
-          </td>
-          <td>
-            <code>712</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg712</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020107.00000000</code> <span class="text-secondary">(<code>Lss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020108.00000000</code> <span class="text-secondary">(<code>Rss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020109.00000000</code> <span class="text-secondary">(<code>Lrs</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.0302010A.00000000</code> <span class="text-secondary">(<code>Rrs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04050000</code> <span class="text-secondary">(<code>TpSiL</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04060000</code> <span class="text-secondary">(<code>TpSiR</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05040000</code>
-          </td>
-          <td>
-            7.1.4
-          </td>
-          <td>
-            <code>714</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg714</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020105.00000000</code> <span class="text-secondary">(<code>Ls</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020106.00000000</code> <span class="text-secondary">(<code>Rs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code> <span class="text-secondary">(<code>Ltf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code> <span class="text-secondary">(<code>Rtf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code> <span class="text-secondary">(<code>Ltf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code> <span class="text-secondary">(<code>Rtf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04070000</code> <span class="text-secondary">(<code>Ltb</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04080000</code> <span class="text-secondary">(<code>Rtb</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05050000</code>
-          </td>
-          <td>
-            9.1.2
-          </td>
-          <td>
-            <code>912</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg912</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020107.00000000</code> <span class="text-secondary">(<code>Lss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020108.00000000</code> <span class="text-secondary">(<code>Rss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020109.00000000</code> <span class="text-secondary">(<code>Lrs</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.0302010A.00000000</code> <span class="text-secondary">(<code>Rrs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04010000</code> <span class="text-secondary">(<code>Lw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04020000</code> <span class="text-secondary">(<code>Rw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04050000</code> <span class="text-secondary">(<code>TpSiL</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04060000</code> <span class="text-secondary">(<code>TpSiR</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05060000</code>
-          </td>
-          <td>
-            9.1.4
-          </td>
-          <td>
-            <code>914</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg914</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020107.00000000</code> <span class="text-secondary">(<code>Lss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020108.00000000</code> <span class="text-secondary">(<code>Rss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020109.00000000</code> <span class="text-secondary">(<code>Lrs</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.0302010A.00000000</code> <span class="text-secondary">(<code>Rrs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04010000</code> <span class="text-secondary">(<code>Lw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04020000</code> <span class="text-secondary">(<code>Rw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code> <span class="text-secondary">(<code>Ltf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code> <span class="text-secondary">(<code>Rtf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04070000</code> <span class="text-secondary">(<code>Ltb</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04080000</code> <span class="text-secondary">(<code>Rtb</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.05070000</code>
-          </td>
-          <td>
-            9.1.6
-          </td>
-          <td>
-            <code>916</code><br />
-            <small class="text-secondary">(MCA Tag Symbol: <code>sg916</code>)</small>
-          </td>
-          <td>
-            <code>urn:smpte:ul:060e2b34.0401010d.03020101.00000000</code> <span class="text-secondary">(<code>L</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020102.00000000</code> <span class="text-secondary">(<code>R</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020103.00000000</code> <span class="text-secondary">(<code>C</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020104.00000000</code> <span class="text-secondary">(<code>LFE</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020107.00000000</code> <span class="text-secondary">(<code>Lss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020108.00000000</code> <span class="text-secondary">(<code>Rss</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.03020109.00000000</code> <span class="text-secondary">(<code>Lrs</code>)</span><br />
-            <code>urn:smpte:ul:060e2b34.0401010d.0302010A.00000000</code> <span class="text-secondary">(<code>Rrs</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04010000</code> <span class="text-secondary">(<code>Lw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04020000</code> <span class="text-secondary">(<code>Rw</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04030000</code> <span class="text-secondary">(<code>Ltf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04040000</code> <span class="text-secondary">(<code>Rtf</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04070000</code> <span class="text-secondary">(<code>Ltb</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04080000</code> <span class="text-secondary">(<code>Rtb</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04050000</code> <span class="text-secondary">(<code>TpSiL</code>)</span><br />
-            <code>urn:smpte:ul:060E2B34.04010105.0E090101.04060000</code> <span class="text-secondary">(<code>TpSiR</code>)</span><br />
-          </td>
-          <td>
-            Dolby, Additional Audio Channels and Soundfields for Immersive Audio (https://developer.dolby.com/globalassets/technology/atmos/additional-channels-for-immersive-audio.pdf)
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <footer>
-    <small class="text-muted">
-      <p class="text-center">Version: <code>b0ea9030b38928258566599b42722bbdf8cd1122</code></p>
-      <p class="text-center">Generated on Mon Jul 20 2020 19:25:56 GMT+0000 (Coordinated Universal Time)</p>
-    </small>
-  </footer>
+
 </body>
 
 </html>
