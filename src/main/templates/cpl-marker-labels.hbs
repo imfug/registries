@@ -17,7 +17,7 @@
     </div>
     <div id="toolbar-links">
       <a href="https://github.com/imfug/registries/issues">File an issue</a>
-      <a href="https://github.com/imfug/registries">Get the code</a>
+      <a href="https://github.com/imfug/registries/src/main/data/cpl-marker-labels.json">Get the JSON</a>
     </div>
   </nav>
 
@@ -25,7 +25,11 @@
     <h1>IMF CPL Marker Label Register</h1>
 
     <p>This register collects <code>Label</code> values (and associated <code>scope</code> values)
-    for use with the IMF CPL.</p>
+      for use with the <a href="https://pub.smpte.org/doc/st2067-3/">IMF CPL</a>.</p>
+
+    <p>The register is also available as a <a href="https://github.com/imfug/registries/src/main/data/cpl-marker-labels.json">JSON file</a>.</p>
+
+    <p>Feedback and suggestions for additional labels are <a href="https://github.com/imfug/registries/issues">welcome</a>.</p>
 
     <table id="register">
       <thead>
@@ -38,7 +42,7 @@
       {{#each scopes}}
         <tbody>
           <tr>
-            <th colspan="3"><code>{{scope}}</code></th>
+            <th colspan="3"><code>scope</code>: <code>{{scope}}</code></th>
           </tr>
           {{#each labels}}
             <tr>
@@ -51,6 +55,11 @@
       {{/each}}
     </table>
   </section>
+
+  <footer>
+    <p>&copy; <a href="mailto:info@imfug.com">IMF User Group</a>.</p>
+    <p>Version: {{version}}</p>
+  </footer>
 
 </body>
 

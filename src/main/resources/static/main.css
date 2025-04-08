@@ -4,8 +4,10 @@ body {
   margin: auto;
 }
 
+/* toolbar */
+
 #toolbar {
-  height: 1.5rem;
+  height: 3em;
   font-size: 1rem;
   align-items: center;
   display: flex;
@@ -15,7 +17,7 @@ body {
 }
 
 #branding img {
-  height: 1em;
+  height: 2em;
   margin-left: 5px;
   margin-right: 5px;
   vertical-align: middle;
@@ -23,6 +25,15 @@ body {
 
 #branding a {
   text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  font-size: smaller;
+  text-align: center;
+  padding: 0.5em 0.5em;
+  border-top: 1px solid #ccc;
 }
 
 /* main section */

@@ -78,6 +78,7 @@ if (!template) {
 }
 
 var html = template({
+  "version": version,
   "scopes" : Array.from(scopes.entries(), ([scope, value]) => ({scope: scope, labels: value})),
 });
 
