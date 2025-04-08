@@ -47,23 +47,30 @@ if (!register) {
 const scopes = new Map();
 for (const entry of register) {
   if (entry.scope === undefined) {
-    throw "Missing scope in entry";
+    throw "Missing scope property";
   }
   if (entry.label === undefined) {
-    throw "Missing label in entry";
+    throw "Missing label property";
   }
   if (entry.description === undefined) {
-    throw "Missing description in entry";
+    throw "Missing description property";
   }
-  if (entry.definingDocument === undefined) {
-    throw "Missing definingDocument in entry";
+  if (entry.authority === undefined) {
+    throw "Missing authority property";
+  }
+  if (entry.seeAlso === undefined) {
+    throw "Missing seeAlso property";
   }
   let labels = scopes.get(entry.scope);
   if (labels === undefined) {
     labels = [];
     scopes.set(entry.scope, labels);
   }
+  if (labels.some((e) => e.label === entry.label)) {
+    throw `Duplicate label: ${entry.scope} ${entry.label}`;
+  }
   labels.push(entry);
+
 }
 
 
