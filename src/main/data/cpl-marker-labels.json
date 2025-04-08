@@ -2,271 +2,848 @@
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFBT",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFBT"
+      }
+    ],
     "description": "First Frame of Bars and Tone",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFCB",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFCB"
+      }
+    ],
     "description": "First Frame of Commercial Blacks",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFCL",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFCL"
+      }
+    ],
     "description": "First Frame of Company/Production Logo",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFDL",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFDL"
+      }
+    ],
     "description": "First Frame of Distribution Logo",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFEC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFEC"
+      }
+    ],
     "description": "First Frame of End Credits. First displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFHS",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFHS"
+      }
+    ],
     "description": "First Frame of Head Slate",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFMC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFMC"
+      }
+    ],
     "description": "First displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFOB",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFOB"
+      }
+    ],
     "description": "First Frame of Ratings Band. First displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFOC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFOC"
+      }
+    ],
     "description": "First Frame of Composition. The first frame of a composition that is intended for display.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFOI",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFOI"
+      }
+    ],
     "description": "First Frame of Intermission.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFSP",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFS"
+      }
+    ],
     "description": "First Frame of Digital Sync Pop",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFTC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFTC"
+      }
+    ],
     "description": "First Frame of Title Credits. First displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFTS",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFTS"
+      }
+    ],
     "description": "First Frame of Tail Slate",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FTXC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": " LTXC"
+      }
+    ],
     "description": "First Frame of Textless Title Credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FTXE",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LTXE"
+      }
+    ],
     "description": "First Frame of Textless End Credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FTXM",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFXM"
+      }
+    ],
     "description": "First Frame of Textless Material Segment",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFBT",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFBT"
+      }
+    ],
     "description": "Last Frame of Bars and Tone",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFCB",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFTB"
+      }
+    ],
     "description": "Last Frame of Commercial Blacks",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFCL",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFCL"
+      }
+    ],
     "description": "Last Frame of Company/Production Logo",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFDL",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFDL"
+      }
+    ],
     "description": "Last Frame of Distribution Logo",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFEC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFEC"
+      }
+    ],
     "description": "Last Frame of End Credits. Last displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFHS",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFHS"
+      }
+    ],
     "description": "Last Frame of Head Slate",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFMC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFMC"
+      }
+    ],
     "description": "Last displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFOB",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFOB"
+      }
+    ],
     "description": "Last Frame of Ratings Band. Last displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFOC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFOC"
+      }
+    ],
     "description": "Last Frame of Composition. The last frame of a composition that is intended for display.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFOI",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFOI"
+      }
+    ],
     "description": "Last Frame of Intermission.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFSP",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFSP"
+      }
+    ],
     "description": "Last Frame of Digital Sync Pop",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFTC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFTC"
+      }
+    ],
     "description": "Last Frame of Title Credits. Last displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFTS",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFTS"
+      }
+    ],
     "description": "Last Frame of Tail Slate",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LTXC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FTXC"
+      }
+    ],
     "description": "Last frame of Textless Title Credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LTXE",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/20201320#standard-markers",
+        "label": "FTXE"
+      }
+    ],
     "description": "Last Frame of Textless End Credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LTXM",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FTXM"
+      }
+    ],
     "description": "Last frame of Textless Material Segment",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FPCI",
+    "seeAlso": [],
     "description": "Fixed Point Candidate Insertion. Indicates possible point in the timeline where it would be allowable to insert content downstrean. This is for material that may not have commercial blacks, but could indicate a candidate point where a commercial could be inserted.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFCO",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFCO"
+      }
+    ],
     "description": "First Frame of Candidate Overlay. First frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFCO",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "FFCO"
+      }
+    ],
     "description": "Last Frame of Candidate Overlay. Last frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "FFOA",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": "LFOA"
+      }
+    ],
     "description": "Audio First Frame. First frame of audio ring-in/ring-out where the video is in black.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
     "label": "LFOA",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+        "label": ""
+      }
+    ],
     "description": "Audio Last Frame. Last frame of audio ring-in/ring-out where the video is in black.",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
     "label": "FFDC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
+        "label": "LFDC"
+      }
+    ],
     "description": "First Frame of Dubbing Credits. First displayable frame of content that contains any intensity of dubbing credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
     "label": "LFDC",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
+        "label": "FFDC"
+      }
+    ],
     "description": "Last Frame of Dubbing credits: Last displayable frame of content that contains any intensity of dubbing credits",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "FFEI",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "LFEI"
+      }
+    ],
     "description": "First Frame of Episode Intro",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "FFER",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "LFER"
+      }
+    ],
     "description": "First Frame of Episode Recap",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "FFUN",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "LFUN"
+      }
+    ],
     "description": "First Frame of Up Next",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "LFEI",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "FFEI"
+      }
+    ],
     "description": "Last Frame of Episode Intro",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "LFER",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "FFER"
+      }
+    ],
     "description": "Last Frame of Episode Recap",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
   },
   {
     "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
     "label": "LFUN",
+    "seeAlso": [
+      {
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+        "label": "FFUN"
+      }
+    ],
     "description": "Last Frame of Up Next",
-    "definingDocument": "SMPTE ST 2067-3"
+    "authority": "SMPTE ST 2067-3"
+  },
+  {
+    "label": "FFCreditScene",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFCreditScene"
+      }
+    ],
+    "description": "First Frame of Credit Scene – A scene embedded in the credits, typically closing credits. This can be mid-credit or post-credit.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFCreditScene",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFCreditScene"
+      }
+    ],
+    "description": "Last frame of Credit Scene – A scene embedded in the credits, typically closing credits. This can be mid-credit or post-credit.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFRecap",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFRecap"
+      }
+    ],
+    "description": "First Frame of Recap – A recap of an episode, season, series/show, or other work. This applies to recaps leadin or trailing recaps rather than standalone recaps.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFRecap",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFRecap"
+      }
+    ],
+    "description": "Last Frame of Recap – A recap of an episode, season, series/show, or other work. This applies to recaps leadin or trailing recaps rather than standalone recaps.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFTease",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFTease"
+      }
+    ],
+    "description": "First Frame of Tease – A tease or other advertisement for an episode, season, series/show, or other work. This applies to recaps leadin or trailing teases rather than standalone recaps.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFTease",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFTease"
+      }
+    ],
+    "description": "Last Frame of Tease – A tease or other advertisement for an episode, season, series/show, or other work. This applies to recaps leadin or trailing teases rather than standalone recaps.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFAd",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFAd"
+      }
+    ],
+    "description": "First Frame of Ad – An advertisement other than Tease",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFAd",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFAd"
+      }
+    ],
+    "description": "Last Frame of Ad – An advertisement other than Tease",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFLogo",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFLogo"
+      }
+    ],
+    "description": "First Frame of Logo – Logos other than Company/Production or Distribution. For example, Network, Distributor, or Platform",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFLogo",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFLogo"
+      }
+    ],
+    "description": "Last Frame of Logo – Logos other than Company/Production or Distribution. For example, Network, Distributor, or Platform",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFAltEnding",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFAltEnding"
+      }
+    ],
+    "description": "First Frame of Alternate ending – An alternate ending",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFAltEnding",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFAltEnding"
+      }
+    ],
+    "description": "Last Frame of Alternate ending – An alternate ending",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFAddlCredits",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFAddlCredits"
+      }
+    ],
+    "description": "First Frame of Extra credits – Additional credits.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFAddlCredits",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFAddlCredits"
+      }
+    ],
+    "description": "Last Frame of Extra credits – Additional credits.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFAddlGraphics",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFAddlGraphics"
+      }
+    ],
+    "description": "First Frame of Additional graphics – Additional graphics",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFAddlGraphics",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFAddlGraphics"
+      }
+    ],
+    "description": "Last Frame of Additional graphics – Additional graphics",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFCompliance",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFCompliance"
+      }
+    ],
+    "description": "First Frame of Compliance event – Period of time that contains content not meeting some compliance standards (e.g., nudity, smoking, or language)",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFCompliance",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFCompliance"
+      }
+    ],
+    "description": "Last Frame of Compliance event – Period of time that contains content not meeting some compliance standards (e.g., nudity, smoking, or language)",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFTitleCard",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFTitleCard"
+      }
+    ],
+    "description": "First Frame of Title Card –The shows title graphic found within the 1st segment of a program. Could overlap with Opening sequence.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFTitleCard",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFTitleCard"
+      }
+    ],
+    "description": "Last Frame of Title Card –The shows title graphic found within the 1st segment of a program. Could overlap with Opening sequence.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFLS",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFLS"
+      }
+    ],
+    "description": "First Frame of First/Last frame of Localization Sequence/Segement/Shot that contains any video that is localized",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFLS",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFLS"
+      }
+    ],
+    "description": "First Frame of First/Last frame of Localization Sequence/Segement/Shot that contains any video that is localized",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFOT",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFOT"
+      }
+    ],
+    "description": "First Frame of First/Last frame of Tag that contains any sequence of credit content (mark-in/mark-out for credit sequence(tag))",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFOT",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFOT"
+      }
+    ],
+    "description": "First Frame of First/Last frame of Tag that contains any sequence of credit content (mark-in/mark-out for credit sequence(tag))",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFCallToAction",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFCallToAction"
+      }
+    ],
+    "description": "First Frame of Ad contains call to action like a web link \"visit www.savethewhales.org\"",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFCallToAction",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFCallToAction"
+      }
+    ],
+    "description": "First Frame of Ad contains call to action like a web link \"visit www.savethewhales.org\"",
+    "authority": "IMF UG"
   }
 ]
