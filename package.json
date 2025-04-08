@@ -3,7 +3,7 @@
   "version": "1.0.0-beta.1",
   "description": "IMF UG metadata registries",
   "scripts": {
-    "build": "node src/main/scripts/build.js"
+    "build": "node src/main/scripts/build.mjs"
   },
   "repository": {
     "type": "git",

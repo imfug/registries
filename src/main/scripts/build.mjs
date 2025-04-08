@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2020, Hollywood Professional Association
+Copyright (c) IMF User Group
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
