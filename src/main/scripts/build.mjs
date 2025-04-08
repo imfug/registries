@@ -46,6 +46,18 @@ if (!register) {
 
 const scopes = new Map();
 for (const entry of register) {
+  if (entry.scope === undefined) {
+    throw "Missing scope in entry";
+  }
+  if (entry.label === undefined) {
+    throw "Missing label in entry";
+  }
+  if (entry.description === undefined) {
+    throw "Missing description in entry";
+  }
+  if (entry.definingDocument === undefined) {
+    throw "Missing definingDocument in entry";
+  }
   let labels = scopes.get(entry.scope);
   if (labels === undefined) {
     labels = [];
