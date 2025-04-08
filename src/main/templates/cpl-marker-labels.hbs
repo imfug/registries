@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/main.css">
+  <title>IMF CPL Marker Label Register</title>
+</head>
+
+<body>
+
+  <nav id="toolbar">
+    <div id="branding">
+      <a href="https://www.imfug.com/"><img src="static/imf-ug-logo.png" alt="IMF User logo"></a>
+      <span><a href="https://www.imfug.com/">IMF User Group</a></span>
+    </div>
+    <div id="toolbar-links">
+      <a href="https://github.com/imfug/registries/issues">File an issue</a>
+      <a href="https://github.com/imfug/registries">Get the code</a>
+    </div>
+  </nav>
+
+  <section id="main">
+    <h1>IMF CPL Marker Label Register</h1>
+
+    <p>This register collects <code>Label</code> values (and associated <code>scope</code> values)
+    for use with the IMF CPL.</p>
+
+    <table id="register">
+      <thead>
+        <tr>
+          <th>Label</th>
+          <th>Description</th>
+          <th>Defining document</th>
+        </tr>
+      </thead>
+      {{#each scopes}}
+        <tbody>
+          <tr>
+            <th colspan="3"><code>{{scope}}</code></th>
+          </tr>
+          {{#each labels}}
+            <tr>
+              <td><code>{{label}}</code></td>
+              <td>{{description}}</td>
+              <td>{{definingDocument}}</td>
+            </tr>
+          {{/each}}
+        </tbody>
+      {{/each}}
+    </table>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+[
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFBT",
+    "description": "First Frame of Bars and Tone",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFCB",
+    "description": "First Frame of Commercial Blacks",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFCL",
+    "description": "First Frame of Company/Production Logo",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFDL",
+    "description": "First Frame of Distribution Logo",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFEC",
+    "description": "First Frame of End Credits. First displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFHS",
+    "description": "First Frame of Head Slate",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFMC",
+    "description": "First displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFOB",
+    "description": "First Frame of Ratings Band. First displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFOC",
+    "description": "First Frame of Composition. The first frame of a composition that is intended for display.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFOI",
+    "description": "First Frame of Intermission.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFSP",
+    "description": "First Frame of Digital Sync Pop",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFTC",
+    "description": "First Frame of Title Credits. First displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFTS",
+    "description": "First Frame of Tail Slate",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FTXC",
+    "description": "First Frame of Textless Title Credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FTXE",
+    "description": "First Frame of Textless End Credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FTXM",
+    "description": "First Frame of Textless Material Segment",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFBT",
+    "description": "Last Frame of Bars and Tone",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFCB",
+    "description": "Last Frame of Commercial Blacks",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFCL",
+    "description": "Last Frame of Company/Production Logo",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFDL",
+    "description": "Last Frame of Distribution Logo",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFEC",
+    "description": "Last Frame of End Credits. Last displayable frame of content that contains any intensity of the End Credits (a non zero alpha value), which appear at the end of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFHS",
+    "description": "Last Frame of Head Slate",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFMC",
+    "description": "Last displayable frame of content that contains any intensity of moving, rolling or scrolling credits (a non-zero alpha value), which appear at the end of the feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFOB",
+    "description": "Last Frame of Ratings Band. Last displayable frame of content of the Rating Band, which is usually a slate at the beginning of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFOC",
+    "description": "Last Frame of Composition. The last frame of a composition that is intended for display.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFOI",
+    "description": "Last Frame of Intermission.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFSP",
+    "description": "Last Frame of Digital Sync Pop",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFTC",
+    "description": "Last Frame of Title Credits. Last displayable frame of content that contains any intensity of the Title Credits (a non zero alpha value), which appear at the beginning of a feature.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFTS",
+    "description": "Last Frame of Tail Slate",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LTXC",
+    "description": "Last frame of Textless Title Credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LTXE",
+    "description": "Last Frame of Textless End Credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LTXM",
+    "description": "Last frame of Textless Material Segment",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FPCI",
+    "description": "Fixed Point Candidate Insertion. Indicates possible point in the timeline where it would be allowable to insert content downstrean. This is for material that may not have commercial blacks, but could indicate a candidate point where a commercial could be inserted.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFCO",
+    "description": "First Frame of Candidate Overlay. First frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFCO",
+    "description": "Last Frame of Candidate Overlay. Last frame of a sequence of frames where overlays, e.g. commercial overlays, may be placed.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "FFOA",
+    "description": "Audio First Frame. First frame of audio ring-in/ring-out where the video is in black.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
+    "label": "LFOA",
+    "description": "Audio Last Frame. Last frame of audio ring-in/ring-out where the video is in black.",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
+    "label": "FFDC",
+    "description": "First Frame of Dubbing Credits. First displayable frame of content that contains any intensity of dubbing credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2016#standard-markers",
+    "label": "LFDC",
+    "description": "Last Frame of Dubbing credits: Last displayable frame of content that contains any intensity of dubbing credits",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "FFEI",
+    "description": "First Frame of Episode Intro",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "FFER",
+    "description": "First Frame of Episode Recap",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "FFUN",
+    "description": "First Frame of Up Next",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "LFEI",
+    "description": "Last Frame of Episode Intro",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "LFER",
+    "description": "Last Frame of Episode Recap",
+    "definingDocument": "SMPTE ST 2067-3"
+  },
+  {
+    "scope": "http://www.smpte-ra.org/schemas/2067-3/2020#standard-markers",
+    "label": "LFUN",
+    "description": "Last Frame of Up Next",
+    "definingDocument": "SMPTE ST 2067-3"
+  }
+]
