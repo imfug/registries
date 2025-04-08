@@ -125,7 +125,7 @@
     "seeAlso": [
       {
         "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
-        "label": "LFS"
+        "label": "LFSP"
       }
     ],
     "description": "First Frame of Digital Sync Pop",
@@ -161,7 +161,7 @@
     "seeAlso": [
       {
         "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
-        "label": " LTXC"
+        "label": "LTXC"
       }
     ],
     "description": "First Frame of Textless Title Credits",
@@ -185,7 +185,7 @@
     "seeAlso": [
       {
         "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
-        "label": "LFXM"
+        "label": "LTXM"
       }
     ],
     "description": "First Frame of Textless Material Segment",
@@ -209,7 +209,7 @@
     "seeAlso": [
       {
         "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
-        "label": "FFTB"
+        "label": "FFCB"
       }
     ],
     "description": "Last Frame of Commercial Blacks",
@@ -364,7 +364,7 @@
     "label": "LTXE",
     "seeAlso": [
       {
-        "scope": "http://www.smpte-ra.org/schemas/2067-3/20201320#standard-markers",
+        "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
         "label": "FTXE"
       }
     ],
@@ -432,7 +432,7 @@
     "seeAlso": [
       {
         "scope": "http://www.smpte-ra.org/schemas/2067-3/2013#standard-markers",
-        "label": ""
+        "label": "FFOA"
       }
     ],
     "description": "Audio Last Frame. Last frame of audio ring-in/ring-out where the video is in black.",
