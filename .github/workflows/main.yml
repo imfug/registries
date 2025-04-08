@@ -20,7 +20,7 @@ jobs:
         path: build/
 
   deploy:
-    if: github.ref == 'refs/heads/master'
+    if: github.ref_name == github.event.repository.default_branch
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
