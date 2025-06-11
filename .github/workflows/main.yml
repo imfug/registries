@@ -33,8 +33,8 @@ jobs:
     steps:
       - uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          - source-path: build/index.html
-          - destination-path: build/register.pdf
+          source-path: build/index.html
+          destination-path: build/register.pdf
 
       - name: Upload the PDF as an artifact
         id: pdf-artifact
