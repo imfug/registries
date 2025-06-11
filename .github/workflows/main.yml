@@ -31,9 +31,10 @@ jobs:
     needs: build
     if: github.event_name == 'pull_request'
     steps:
+      - uses: actions/download-artifact@v4
       - uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: ./build/index.html
+          htmlFile: build/index.html
           outputFile: register.pdf
 
       - name: Upload the PDF as an artifact
