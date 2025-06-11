@@ -30,7 +30,7 @@ jobs:
       - uses: markwilson/html2pdf@v1.0
         with:
           htmlPath: build/index.html
-          pdfName: build/register.pdf
+          pdfName: build/register
 
       - name: Upload the PDF as an artifact
         id: pdf-artifact
