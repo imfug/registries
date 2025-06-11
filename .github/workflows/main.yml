@@ -36,20 +36,18 @@ jobs:
           htmlPath: build/index.html
           pdfName: build/register.pdf
 
-    - name: Upload the PDF as an artifact
-      if: github.event_name == 'pull_request'
-      id: pdf-artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: register
-        path: build/register.pdf
-  
-    - name: Add artifact links to the pull request
-      if: github.event_name == 'pull_request'
-      uses: marocchino/sticky-pull-request-comment@v2
-      with:
-        message: |
-          Rendered register: <${{ steps.pdf-artifact.outputs.artifact-url}}>
+      - name: Upload the PDF as an artifact
+        id: pdf-artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: register
+          path: build/register.pdf
+      
+      - name: Add artifact links to the pull request
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            Rendered register: <${{ steps.pdf-artifact.outputs.artifact-url}}>
 
   deploy:
     if: github.ref_name == github.event.repository.default_branch
