@@ -40,7 +40,6 @@ jobs:
           path: build/register.pdf
       
       - name: Add artifact links to the pull request
-        if: steps.finder
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |
