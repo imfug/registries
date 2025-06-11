@@ -27,10 +27,10 @@ jobs:
     needs: build
     if: github.event_name == 'pull_request'
     steps:
-      - uses: markwilson/html2pdf@v1.0
+      - uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          htmlPath: build/index.html
-          pdfName: build/register
+          - source-path: build/index.html
+          - destination-path: build/register.pdf
 
       - name: Upload the PDF as an artifact
         id: pdf-artifact
