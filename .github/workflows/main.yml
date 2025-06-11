@@ -26,6 +26,30 @@ jobs:
       with:
         path: build/
 
+  artifact:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: markwilson/html2pdf@v1.0
+        with:
+          htmlPath: build/index.html
+          pdfName: build/register.pdf
+
+      - name: Upload the PDF as an artifact
+        id: pdf-artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: register
+          path: build/register.pdf
+      
+      - name: Add artifact links to the pull request
+        if: steps.finder
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            Rendered register: <${{ steps.pdf-artifact.outputs.artifact-url}}>
+
   deploy:
     if: github.ref_name == github.event.repository.default_branch
     environment:
