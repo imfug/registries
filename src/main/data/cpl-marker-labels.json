@@ -583,27 +583,27 @@
     "authority": "IMF UG"
   },
   {
-    "label": "FFTease",
+    "label": "FFPromo",
     "scope": "https://www.imfug.com/ns/cpl-markers/2025",
     "seeAlso": [
       {
         "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "LFTease"
+        "label": "LFPromo"
       }
     ],
-    "description": "First Frame of Tease – A tease or other advertisement for an episode, season, series/show, or other work. This applies to recaps leadin or trailing teases rather than standalone recaps.",
+    "description": "First Frame of Promotion – promotional material associated with media. This includes teasers, trailers, electronic press kits and other materials.",
     "authority": "IMF UG"
   },
   {
-    "label": "LFTease",
+    "label": "LFPromo",
     "scope": "https://www.imfug.com/ns/cpl-markers/2025",
     "seeAlso": [
       {
         "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "FFTease"
+        "label": "FFPromo"
       }
     ],
-    "description": "Last Frame of Tease – A tease or other advertisement for an episode, season, series/show, or other work. This applies to recaps leadin or trailing teases rather than standalone recaps.",
+    "description": "Last Frame of Promotion – promotional material associated with media. This includes teasers, trailers, electronic press kits and other materials.",
     "authority": "IMF UG"
   },
   {
@@ -615,7 +615,7 @@
         "label": "LFAd"
       }
     ],
-    "description": "First Frame of Ad – An advertisement other than Tease",
+    "description": "First Frame of Ad – any form of advertisement including TV commercials, informercials, and public service announcements.",
     "authority": "IMF UG"
   },
   {
@@ -627,7 +627,7 @@
         "label": "FFAd"
       }
     ],
-    "description": "Last Frame of Ad – An advertisement other than Tease",
+    "description": "Last Frame of Ad – any form of advertisement including TV commercials, informercials, and public service announcements.",
     "authority": "IMF UG"
   },
   {
@@ -775,51 +775,27 @@
     "authority": "IMF UG"
   },
   {
-    "label": "FFLS",
+    "label": "FFPictureLocal",
     "scope": "https://www.imfug.com/ns/cpl-markers/2025",
     "seeAlso": [
       {
         "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "LFLS"
+        "label": "LFPictureLocal"
       }
     ],
-    "description": "First Frame of First/Last frame of Localization Sequence/Segement/Shot that contains any video that is localized",
+    "description": "First frame of Localization Sequence/Segement/Shot that contain any images that are localized",
     "authority": "IMF UG"
   },
   {
-    "label": "LFLS",
+    "label": "LFPictureLocal",
     "scope": "https://www.imfug.com/ns/cpl-markers/2025",
     "seeAlso": [
       {
         "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "FFLS"
+        "label": "FFPictureLocal"
       }
     ],
-    "description": "First Frame of First/Last frame of Localization Sequence/Segement/Shot that contains any video that is localized",
-    "authority": "IMF UG"
-  },
-  {
-    "label": "FFOT",
-    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-    "seeAlso": [
-      {
-        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "LFOT"
-      }
-    ],
-    "description": "First Frame of First/Last frame of Tag that contains any sequence of credit content (mark-in/mark-out for credit sequence(tag))",
-    "authority": "IMF UG"
-  },
-  {
-    "label": "LFOT",
-    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-    "seeAlso": [
-      {
-        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
-        "label": "FFOT"
-      }
-    ],
-    "description": "First Frame of First/Last frame of Tag that contains any sequence of credit content (mark-in/mark-out for credit sequence(tag))",
+    "description": "Last frame of Localization Sequence/Segement/Shot that contain any images that are localized",
     "authority": "IMF UG"
   },
   {
