@@ -47,25 +47,51 @@ if (!register) {
 const scopes = new Map();
 for (const entry of register) {
   if (entry.scope === undefined) {
-    throw "Missing scope in entry";
+    throw "Missing scope property";
   }
   if (entry.label === undefined) {
-    throw "Missing label in entry";
+    throw "Missing label property";
   }
   if (entry.description === undefined) {
-    throw "Missing description in entry";
+    throw "Missing description property";
   }
-  if (entry.definingDocument === undefined) {
-    throw "Missing definingDocument in entry";
+  if (entry.authority === undefined) {
+    throw "Missing authority property";
+  }
+  if (entry.seeAlso === undefined) {
+    throw "Missing seeAlso property";
   }
   let labels = scopes.get(entry.scope);
   if (labels === undefined) {
     labels = [];
     scopes.set(entry.scope, labels);
   }
+
+  /* check for duplicate labels */
+  if (labels.some((e) => e.label === entry.label)) {
+    throw `Duplicate label: ${entry.scope} ${entry.label}`;
+  }
   labels.push(entry);
 }
 
+/* validate seeAlso property */
+for (const entry of register) {
+  for (const ref of entry.seeAlso) {
+    if (ref.scope === undefined) {
+      throw "Missing seeAlso scope property";
+    }
+    if (ref.label === undefined) {
+      throw "Missing seeAlso label property";
+    }
+    const ref_scope = scopes.get(ref.scope);
+    if (ref_scope === undefined) {
+      throw `Unknown seeAlso scope: ${ref.scope}`;
+    }
+    if (!ref_scope.find((e) => e.label === ref.label)) {
+      throw `Unknown seeAlso label at ${entry.label}: ${ref.label}`;
+    }
+  }
+}
 
 /* get the version field */
 let version = "Unknown version"
@@ -91,7 +117,7 @@ if (!template) {
 
 var html = template({
   "version": version,
-  "scopes" : Array.from(scopes.entries(), ([scope, value]) => ({scope: scope, labels: value})),
+  "scopes": Array.from(scopes.entries(), ([scope, value]) => ({ scope: scope, labels: value })),
 });
 
 writeFileSync(join(BUILD_PATH, PAGE_SITE_PATH), html, 'utf8');
