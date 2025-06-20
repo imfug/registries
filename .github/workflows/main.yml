@@ -1,23 +1,51 @@
 name: build and test
 
-on: push
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
     - uses: actions/checkout@v3
       with:
         submodules: recursive
+
     - uses: actions/setup-node@v4
       with:
         node-version: '20'
+
     - run: npm install
+
     - run: npm run build
+
     - id: deployment
       uses: actions/upload-pages-artifact@v3
       with:
         path: build/
+
+    - uses: fifsky/html-to-pdf-action@master
+      if: github.event_name == 'pull_request'
+      with:
+        htmlFile: build/index.html
+        outputFile: build/register.pdf
+
+    - name: Upload the PDF as an artifact
+      if: github.event_name == 'pull_request'
+      id: pdf-artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: register
+        path: build/register.pdf
+  
+    - name: Add artifact links to the pull request
+      if: github.event_name == 'pull_request'
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        message: |
+          Rendered register: <${{ steps.pdf-artifact.outputs.artifact-url}}>
 
   deploy:
     if: github.ref_name == github.event.repository.default_branch
