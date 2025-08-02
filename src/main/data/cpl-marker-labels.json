@@ -821,5 +821,53 @@
     ],
     "description": "First Frame of Ad contains call to action like a web link \"visit www.savethewhales.org\"",
     "authority": "IMF UG"
+  },
+  {
+    "label": "FFVB",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFVB"
+      }
+    ],
+    "description": "First frame of Video Black. One or more frames of intentional black picture (e.g., lead-in, dramatic pauses, and other creative devices), distinguishing it from unintended dropouts and commercial black.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFVB",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFVB"
+      }
+    ],
+    "description": "Last frame of Video Black. One or more frames of intentional black picture (e.g., lead-in, dramatic pauses, and other creative devices), distinguishing it from unintended dropouts and commercial black.",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "FFBreakPreview",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "LFBreakPreview"
+      }
+    ],
+    "description": "First frame of a segment teasing viewers to return after a break (e.g., \"Stay tuned\", \"Up Next\", and \"After the break\").",
+    "authority": "IMF UG"
+  },
+  {
+    "label": "LFBreakPreview",
+    "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+    "seeAlso": [
+      {
+        "scope": "https://www.imfug.com/ns/cpl-markers/2025",
+        "label": "FFBreakPreview"
+      }
+    ],
+    "description": "Last frame of a segment teasing viewers to return after a break (e.g., \"Stay tuned\", \"Up Next\", and \"After the break\").",
+    "authority": "IMF UG"
   }
 ]
