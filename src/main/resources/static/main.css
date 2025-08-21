@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
+  line-height: 125%;
 }
 
 /* toolbar */
@@ -72,7 +73,11 @@ footer {
 }
 
 #register th:nth-child(3) {
-  width: 30%;
+  width: 10%;
+}
+
+#register th:nth-child(4) {
+  width: 20%;
 }
 
 #register tbody tr:nth-child(even) {
